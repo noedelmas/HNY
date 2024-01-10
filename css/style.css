@@ -1,0 +1,174 @@
+.step2, .step3, .step4, .step5 {
+    display: none;
+}
+
+section{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.7;
+}
+
+.play__icon{
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    right: 2%;
+    top: calc(50vh - 17.5px);
+    width: 5%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    display: flex;
+    z-index: 99;
+}
+
+.next img{
+    width: 50%;
+    height: 50%;
+}
+
+.step__inner{
+    position: relative;
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.step1{
+    background-image: url(../images/desktop-wallpaper-the-microsoft-surface-pro-3-is-d-with-a-custom-to-this-custom.jpg);
+}
+
+.step1{
+    opacity: 0;
+    transition:all 2.5s;
+    top: -20px;
+    position:relative;
+}
+
+.step1 h2{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    width: 7.5%;
+    padding-left: 0.5%;
+    text-align: center;
+
+}
+
+#step1title{
+    left: -1000px;
+    position:relative;
+    transition: all 1s;
+    opacity: 0;
+}
+
+#step1para{
+transition: all 1s;
+    opacity: 0;
+    right: -1000px;
+    position: relative;
+    max-width: 250px;
+}
+
+.step2{
+    background-image: url(../images/nympheas.jpg)
+}
+
+.step2 h2 {
+    top: calc(50% - 25px);
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+    font-size: small;
+    width: 7.5%;
+    padding-left: 0.5%;
+}
+
+#step2title{
+    top: -100px;
+    position:relative;
+    transition: all 1.5s;
+    opacity: 0;
+}
+
+
+
+#step2para{
+    transition: all 1.5s;
+        opacity: 0;
+        top: -100px;
+        position: relative;
+}
+
+.step3{
+    background-image: url(../images/wallpaper2.jpg);
+}
+
+.step3 h2{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    width: 7.5%;
+    padding-left: 0.5%;
+}
+
+.step4{
+    background-image: url(../images/wallpaper.jpg)
+}
+
+.step4 h2{
+    background-color: orange;
+    border-radius: 5px;
+    color: grey;
+    font-size: small;
+    width: 7.5%;
+    padding-left: 0.5%;
+}
+
+.step5{
+    background-image: url(../images/backgroundcover.jpg);
+}
+
+.step5 h2{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    width: 7.5%;
+    padding-left: 0.5%;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+font-family: 'Kalam', cursive;
+}
