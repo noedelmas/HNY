@@ -19,9 +19,13 @@ function start(){
         step1title.style.left = 0;
         step1para.style.right = 0;
 
+       
         intervalexit
-    },"1250");
+    },"2000");
 
+    setTimeout(()=>{
+        showstep2()
+    }, "13000")
 }
 
 function exit(){
@@ -35,13 +39,9 @@ function exit(){
         step1title.style.opacity = 0;
 
         step1para.style.opacity = 0;
-     
-    intervalexit
-    },"2000");
-
-    setTimeout(()=>{
-    showstep2()
-    }, "13000")
+        
+    },"1250");
+    
 }
 
 function showstep2(){

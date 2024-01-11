@@ -64,7 +64,6 @@ section::before{
     background-size: cover;
     background-position: center;
     opacity: 0;
-    top: -20px;
     transition: all 10s;
     background-image: url(../images/desktop-wallpaper-the-microsoft-surface-pro-3-is-d-with-a-custom-to-this-custom.jpg);
 }
@@ -74,10 +73,10 @@ section::before{
     border-radius: 5px;
     color: white;
     font-size: small;
-    width: 7.5%;
+    width: 12.5%;
     padding-left: 0.5%;
     text-align: center;
-
+    margin-bottom: 10px;
 }
 
 #step1title{
@@ -85,6 +84,7 @@ section::before{
     position:relative;
     transition: all 1s;
     opacity: 0;
+    font-size: large;
 }
 
 #step1para{
