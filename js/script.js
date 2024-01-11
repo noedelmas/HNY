@@ -7,7 +7,6 @@ function start(){
     var step1title = document.getElementById('step1title')
     console.log(step1)
 
-
     step1.style.opacity = 1;
 
     step1para.style.opacity = 1;
@@ -48,8 +47,8 @@ function showstep2(){
 
     let step1 = document.getElementById('step1')
     let step2 = document.getElementById('step2')
-    let step2title = document.getElementById('title2')
-    let step2para = document.getElementById('poeme2')
+    let step2title = document.getElementById('step2title')
+    let step2para = document.getElementById('step2para')
     // let autor2 = document.getElementById('autor2')
     
     step1.style.display = "none";
@@ -61,157 +60,169 @@ function showstep2(){
     
     step2para.style.opacity = 0;
 
-setTimeout(()=>{
+    setTimeout(()=>{
     step2.style.opacity = 1;
     step2title.style.opacity = 1;
     step2para.style.opacity = 1;
 
-     },"1000");
-     setTimeout(()=>{
-         title2.style.top = 0;
-         step2para.style.bottom = 0;
+    },"1000");
+
+    setTimeout(()=>{
+         step2para.style.left = 0;
          step2title.style.right = 0;
-     },"2000");
-     setTimeout(()=>{
-         title2.style.bottom = -9000;
+
+    },"2000");
+
+    setTimeout(()=>{
          step2para.style.top = -9000;
          step2title.style.bottom = -9000;
-     },"10000");
-     setTimeout(()=>{
+
+    },"10000");
+
+    setTimeout(()=>{
         step2.style.opacity = 0;
-     },"13000");
-     setTimeout(()=>{
+
+    },"13000");
+
+    setTimeout(()=>{
         showstep3()
-     }, "15000")
+
+    }, "15000")
 
 }
+
+// Démarrage de l'affichage de la fonction step3
 
     function showstep3(){
-//     let step2 = document.getElementById('step2')
-//     let step3 = document.getElementById('step3')
-//     let title3 = document.getElementById('title3')
-//     let poeme3 = document.getElementById('poeme3')
-//     let autor3 = document.getElementById('autor3')
+    let step2 = document.getElementById('step2')
+    let step3 = document.getElementById('step3')
+    let step3title = document.getElementById('step3title')
+    let step3para = document.getElementById('step3para')
     
-//     step2.style.display = "none";
-//     step3.style.display = "block";
+    step2.style.display = "none";
+    step3.style.display = "block";
 
-//     step3.style.opacity = 0;
+    step3.style.opacity = 0;
 
-//     title3.style.opacity = 0;
+    step3para.style.opacity = 0;
+
+    step3title.style.opacity = 0;
+
     
-//     poeme3.style.opacity = 0;
-    
-//     autor3.style.opacity = 0;
 
-//     setTimeout(()=>{
-//         step3.style.opacity = 1;
-//         title3.style.opacity = 1;
-//         poeme3.style.opacity = 1;
-//         autor3.style.opacity = 1;
-//     },"1000");
-//     setTimeout(()=>{
-//         title3.style.top = 0;
-//         poeme3.style.bottom = 0;
-//         autor3.style.right = 0;
-//     },"2000");
-//     setTimeout(()=>{
-//         title3.style.bottom = -9000;
-//         poeme3.style.top = -9000;
-//         autor3.style.bottom = -9000;
-//     },"11000");
-//     setTimeout(()=>{
-//         step3.style.opacity = 1;
+    setTimeout(()=>{
 
-//         title3.style.opacity = 1;
+        step3.style.opacity = 1;
+        step3title.style.opacity = 1;
+        step3para.style.opacity = 1;
+    },"1000");
+
+    setTimeout(()=>{
+
+        step3title.style.top = 0;
+        step3para.style.bottom = 0;
+        step3.style.right = 0;
+    },"2000");
+
+    setTimeout(()=>{
+
+        step3.style.bottom = -9000;
+        step3title.style.top = -9000;
+        step3para.style.bottom = -9000;
+    },"11000");
+
+    setTimeout(()=>{
+
+        step3.style.opacity = 1;
+
+        step3title.style.opacity = 1;
         
-//         poeme3.style.opacity = 1;
-        
-//         autor3.style.opacity = 1;
-//     },"12000");
-//     setTimeout(()=>{
-//         showstep4()
-//     }, "15000")
+        step3para.style.opacity = 1;
+    },"12000");
+
+    setTimeout(()=>{
+        showstep4()
+    }, "15000")
+
 }
 
-// function showstep4(){
-//     let step4 = document.getElementById('step4')
-//     let title4 = document.getElementById('title4')
-//     let poeme4 = document.getElementById('poeme4')
-//     let autor4 = document.getElementById('autor4')
+function showstep4(){
+    let step4 = document.getElementById('step4')
+    let step4para = document.getElementById('step4para')
+    let step4title = document.getElementById('step4title')
+
+    step3.style.display = "none";
+    step4.style.display = "block";
+
+    step4.style.opacity = 0;
+
+    step4para.style.opacity = 0;
+
+    step4title.style.opacity = 0;
+
+    setTimeout(()=>{
+
+        step4.style.opacity = 1;
+        step4title.style.opacity = 1;
+        step4para.style.opacity = 1;
+    },"1000");
+
+    setTimeout(()=>{
+
+        step4title.style.top = 0;
+        step4para.style.bottom = 0;
+    },"2000");
+
+    setTimeout(()=>{
+
+        step4title.style.bottom = -9000;
+        step4para.style.top = -9000;
+    },"11000");
+
+    setTimeout(()=>{
+
+        step4.style.opacity = 1;
+
+        step4title.style.opacity = 1;
     
-//     step3.style.display = "none";
-//     step4.style.display = "block";
-
-//     step4.style.opacity = 0;
-
-//     title4.style.opacity = 0;
+        step4para.style.opacity = 1;
     
-//     poeme4.style.opacity = 0;
+    },"12000");
     
-//     autor4.style.opacity = 0;
+    setTimeout(()=>{
+        showstep5()
+    }, "15000")
 
-//     setTimeout(()=>{
-//         step4.style.opacity = 1;
-//         title4.style.opacity = 1;
-//         poeme4.style.opacity = 1;
-//         autor4.style.opacity = 1;
-//     },"1000");
-//     setTimeout(()=>{
-//         title4.style.top = 0;
-//         poeme4.style.bottom = 0;
-//         autor4.style.right = 0;
-//     },"2000");
-//     setTimeout(()=>{
-//         title4.style.bottom = -9000;
-//         poeme4.style.top = -9000;
-//         autor4.style.bottom = -9000;
-//     },"11000");
-//     setTimeout(()=>{
-//         step4.style.opacity = 1;
+}
 
-//         title4.style.opacity = 1;
-        
-//         poeme4.style.opacity = 1;
-        
-//         autor4.style.opacity = 1;
-//     },"12000");
-//     setTimeout(()=>{
-//         showstep5()
-//     }, "15000")
+function showstep5(){
+    let step5 = document.getElementById('step5')
+    let step5title = document.getElementById('step5title')
+    let step5para = document.getElementById('step5para')
 
-// }
+    step4.style.display = "none";
+    step5.style.display = "block";
 
-// function showstep5(){
-//     let step5 = document.getElementById('step5')
-//     let title5 = document.getElementById('title5')
-//     let poeme5 = document.getElementById('poeme5')
-//     let autor5 = document.getElementById('autor5')
-    
-//     step4.style.display = "none";
-//     step5.style.display = "block";
+    step5.style.opacity = 0;
 
-//     step5.style.opacity = 0;
+    step5title.style.opacity = 0;
 
-//     title5.style.opacity = 0;
-    
-//     poeme5.style.opacity = 0;
-    
-//     autor5.style.opacity = 0;
+    step5para.style.opacity = 0;
 
-//     setTimeout(()=>{
-//         step5.style.opacity = 1;
-//         title5.style.opacity = 1;
-//         poeme5.style.opacity = 1;
-//         autor5.style.opacity = 1;
-//     },"1000");
-//     setTimeout(()=>{
-//         title5.style.top = 0;
-//         poeme5.style.bottom = 0;
-//         autor5.style.right = 0;
-//     },"2000");
+    setTimeout(()=>{
 
-// }
+        step5.style.opacity = 1;
+        step5title.style.opacity = 1;
+        step5para.style.opacity = 1;
+    },"1000");
+
+    setTimeout(()=>{
+
+        step5title.style.top = 0;
+        step5para.style.bottom = 0;
+    },"2000");
+
+}
 
 // function start(){
 //     let step1 = document.getElementById('step1')

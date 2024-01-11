@@ -72,7 +72,6 @@ section::before{
     background-color: orange;
     border-radius: 5px;
     color: white;
-    font-size: small;
     width: 12.5%;
     padding-left: 0.5%;
     text-align: center;
@@ -94,78 +93,118 @@ section::before{
     transition: all 1s;
     text-shadow: black 1px 0 10px;
     opacity: 0;
+    height: 125px;
+    width: 305px;
     font-size: large;
     right: -1000px;
     position: relative;
-    max-width: 250px;
+    max-width: 305px;
+    align-items: center;
+    display: flex;
 }
 
 .step2{
-    background-image: url(../images/nympheas.jpg)
+    background-image: url(../images/nympheas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all 10s;
 }
 
 .step2 h2 {
-    top: calc(50% - 25px);
     background-color: orange;
     border-radius: 5px;
     color: black;
-    font-size: small;
-    width: 7.5%;
+    font-size: large;
+    width: 12.5%;
     padding-left: 0.5%;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #step2title{
-    top: -100px;
+    right: -1000px;
     position:relative;
     transition: all 1.5s;
     opacity: 0;
 }
 
-
-
 #step2para{
     transition: all 1.5s;
-        opacity: 0;
-        top: -100px;
-        position: relative;
+    opacity: 0;
+    left: -1000px;
+    position: relative;
 }
 
 .step3{
     background-image: url(../images/wallpaper2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all 10s;
 }
 
 .step3 h2{
     background-color: orange;
     border-radius: 5px;
     color: white;
-    font-size: small;
-    width: 7.5%;
+    font-size: large;
+    width: 12.5%;
     padding-left: 0.5%;
 }
 
+h2{
+    margin-bottom: 10px;
+    font-size: large;
+    width: 12.5%;
+}
+
+p{
+    font-size: large;
+    width: 12.5%;
+}
+
 .step4{
-    background-image: url(../images/wallpaper.jpg)
+    background-image: url(../images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all 10s;
 }
 
 .step4 h2{
     background-color: orange;
     border-radius: 5px;
     color: grey;
-    font-size: small;
-    width: 7.5%;
+    font-size: large;
+    width: 12.5%;
     padding-left: 0.5%;
+}
+
+.step4 p{
+    border-radius: 5px;
+    background-color: grey;
+    opacity: 0.5;
 }
 
 .step5{
     background-image: url(../images/backgroundcover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all 10s;
 }
 
 .step5 h2{
     background-color: orange;
     border-radius: 5px;
     color: white;
-    font-size: small;
-    width: 7.5%;
+    font-size: large;
+    width: 12.5%;
     padding-left: 0.5%;
 }
 
