@@ -1,4 +1,4 @@
-const intervalexit = setInterval(exit, 2250)
+const intervalexit = setInterval(exit, 12500)
 
 function start(){
 
@@ -15,6 +15,7 @@ function start(){
     step1title.style.opacity = 1;
 
     setTimeout(()=>{
+
         step1title.style.left = 0;
         step1para.style.right = 0;
 
@@ -34,9 +35,13 @@ function exit(){
         step1title.style.opacity = 0;
 
         step1para.style.opacity = 0;
+     
+    intervalexit
+    },"2000");
 
-    },"11000");
-    
+    setTimeout(()=>{
+    showstep2()
+    }, "13000")
 }
 
 function showstep2(){
@@ -230,11 +235,7 @@ setTimeout(()=>{
 //         poeme1.style.bottom = 0;
 //         autor1.style.right = 0;
 
-//         intervalexit
-//     },"2000");
-//     setTimeout(()=>{
-//         showstep2()
-//     }, "13000")
+//         
 // }
 
 
