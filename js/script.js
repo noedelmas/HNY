@@ -2,7 +2,7 @@ const intervalexit = setInterval(exit, 12500)
 
 function play() {
     const audio = document.getElementById("my-audio");
-    audio.volume = 0.3;
+    audio.volume = 0.5;
     audio.play();
   }
 
